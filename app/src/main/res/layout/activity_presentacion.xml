@@ -104,7 +104,7 @@ GRUPO:\n
             android:id="@+id/r3"
             android:layout_width="219dp"
             android:layout_height="50dp"
-            android:layout_marginTop="48dp"
+            android:layout_marginTop="72dp"
             android:backgroundTint="#6B558B2F"
             android:onClick="onClick"
             android:text="Regresar"
