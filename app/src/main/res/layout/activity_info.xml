@@ -19,11 +19,13 @@
             android:id="@+id/titulo1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
             android:layout_marginTop="16dp"
-            android:text="informacion de app"
+            android:text="INFORMACIÓN DEL APP"
             android:textAlignment="center"
-            android:textColor="#170101"
+            android:textColor="#7868E6"
             android:textSize="34sp"
+            android:textStyle="bold"
             app:layout_constraintStart_toStartOf="@+id/r4"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -44,6 +46,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="352dp"
+            android:backgroundTint="#7868E6"
             android:onClick="onClick"
             android:text="regresar"
             app:layout_constraintEnd_toEndOf="parent"

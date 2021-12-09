@@ -87,7 +87,7 @@
         android:layout_height="wrap_content"
         android:text="PROYECTO SEMESTRAL \n HERRAMIENTAS APLICADAS IV"
         android:textAlignment="center"
-        android:textColor="#1C0C5B"
+        android:textColor="#7868E6"
         android:textSize="29sp"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="0dp"
