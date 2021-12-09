@@ -32,7 +32,7 @@
             android:layout_width="match_parent"
             android:layout_height="569dp"
             android:layout_marginTop="64dp"
-            android:text="un sensor de presión es un instrumento compuesto por un elemento detector de presión con el que se determina la presión real aplicada al sensor (utilizando distintos principios de funcionamiento) y otros componentes que convierten esta información en una señal de salida."
+            android:text="Un sensor de presión es un instrumento compuesto por un elemento detector de presión con el que se determina la presión real aplicada al sensor (utilizando distintos principios de funcionamiento) y otros componentes que convierten esta información en una señal de salida."
             android:textColor="#090202"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"

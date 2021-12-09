@@ -34,7 +34,7 @@
             android:layout_width="match_parent"
             android:layout_height="569dp"
             android:layout_marginTop="64dp"
-            android:text="la aplicacion se trata sobre dos sensores utilizacndo uno como acelerometro y otro como barometro, los cuales se definien por colores para identificar  los valores mas altos posibles."
+            android:text="La aplicacion se trata sobre dos sensores utilizacndo uno como acelerometro y otro como barometro, los cuales se definien por colores para identificar  los valores mas altos posibles."
             android:textColor="#090202"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
