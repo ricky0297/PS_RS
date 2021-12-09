@@ -27,7 +27,7 @@
             android:id="@+id/p1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:backgroundTint="#860D477A"
+            android:backgroundTint="#6E3CBC"
             android:onClick="onClick"
             android:text="Presion" />
 
@@ -35,7 +35,7 @@
             android:id="@+id/p2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:backgroundTint="#79287A16"
+            android:backgroundTint="#7267CB"
             android:onClick="onClick"
             android:text="informacion" />
 
@@ -43,7 +43,7 @@
             android:id="@+id/r2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:backgroundTint="#8BF9A825"
+            android:backgroundTint="#98BAE7"
             android:onClick="onClick"
             android:text="regresar" />
     </LinearLayout>

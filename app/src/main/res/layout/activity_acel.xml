@@ -27,7 +27,7 @@
             android:id="@+id/p1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:backgroundTint="#80B12C2C"
+            android:backgroundTint="#7868E6"
             android:onClick="onClick"
             android:text="acelerometro lineal" />
 
@@ -35,7 +35,7 @@
             android:id="@+id/p2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:backgroundTint="#791D881F"
+            android:backgroundTint="#B8B5FF"
             android:onClick="onClick"
             android:text="informacion" />
 
@@ -43,7 +43,7 @@
             android:id="@+id/r1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:backgroundTint="#90F9A825"
+            android:backgroundTint="#C9B6E4"
             android:onClick="onClick"
             android:text="regresar" />
     </LinearLayout>
