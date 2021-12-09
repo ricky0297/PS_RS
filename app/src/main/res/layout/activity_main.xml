@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/lop"
-    android:backgroundTint="#65FFFFFF"
+    android:backgroundTintMode="add"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -32,7 +32,7 @@
                     android:id="@+id/present"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:backgroundTint="#6E3CBC"
+                    android:backgroundTint="#3D2C8D"
                     android:bufferType="normal"
                     android:ellipsize="none"
                     android:insetLeft="0dp"
@@ -44,7 +44,7 @@
                     android:id="@+id/acel"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:backgroundTint="#7267CB"
+                    android:backgroundTint="#6E3CBC"
                     android:ellipsize="none"
                     android:onClick="onClick"
                     android:text="Acelerometro Lineal" />
@@ -53,7 +53,7 @@
                     android:id="@+id/pres"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:backgroundTint="#C996CC"
+                    android:backgroundTint="#4B3869"
                     android:ellipsize="none"
                     android:onClick="onClick"
                     android:text="Medidor de Presion" />
@@ -62,7 +62,7 @@
                     android:id="@+id/info"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:backgroundTint="#98BAE7"
+                    android:backgroundTint="#916BBF"
                     android:ellipsize="none"
                     android:onClick="onClick"
                     android:text="Información" />
@@ -71,7 +71,7 @@
                     android:id="@+id/salir"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:backgroundTint="#63B4B8"
+                    android:backgroundTint="#6E3CBC"
                     android:ellipsize="none"
                     android:onClick="onClick"
                     android:text="salir" />
@@ -80,5 +80,17 @@
         </ScrollView>
 
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PROYECTO SEMESTRAL \n HERRAMIENTAS APLICADAS IV"
+        android:textAlignment="center"
+        android:textColor="#1C0C5B"
+        android:textSize="29sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="45dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
