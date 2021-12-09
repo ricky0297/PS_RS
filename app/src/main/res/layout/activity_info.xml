@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".info">
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
@@ -23,11 +24,11 @@
             android:textAlignment="center"
             android:textColor="#170101"
             android:textSize="34sp"
-            app:layout_constraintStart_toStartOf="@+id/textView2"
+            app:layout_constraintStart_toStartOf="@+id/r4"
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/r4"
             android:layout_width="match_parent"
             android:layout_height="569dp"
             android:layout_marginTop="64dp"
@@ -37,6 +38,18 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/r5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="352dp"
+            android:onClick="onClick"
+            android:text="regresar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/r4" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 
