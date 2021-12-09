@@ -4,27 +4,117 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/logo"
+    android:background="@drawable/lop"
     tools:context=".presentacion">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/linearLayout7"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#D0FFFFFF"
-        android:backgroundTint="#FFFFFF">
+        android:background="#5CFFFFFF"
+        android:backgroundTint="#FFFFFF"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-16dp">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="59dp"
+            android:layout_height="54dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="60dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/utl" />
 
         <TextView
             android:id="@+id/textView7"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="UNIVERSIDAD TECNOLÓGICA DE PANAMÁ \n FACULTAD DE INGENIERÍA DE SISTEMAS COMPUTACIONALES \nDEPARTAMENTO DE COMPUTACIÓN Y SIMULACIÓN DE SISTEMAS\n LICENCIATURA EN INGENIERÍA EN SISTEMAS Y COMPUTACIÓN"
+            android:layout_width="372dp"
+            android:layout_height="96dp"
+            android:layout_marginTop="68dp"
+            android:text="Universidad Tecnológica de Panamá \n Facultad de Ingeniería de Sistemas Computacionales \n Departamento de Computación y Simulación de Sistemas  \n Lic. En Ing. En Sistemas y Computación "
             android:textAlignment="center"
             android:textColor="#040000"
             android:textColorHint="#190101"
             android:textSize="16sp"
-            app:layout_constraintStart_toStartOf="@+id/textView8"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="84dp"
+            android:text="PROYECTO SEMESTRAL"
+            android:textAlignment="center"
+            android:textColor="#5D51B3"
+            android:textColorHint="#190101"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView8" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="409dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="4dp"
+            android:text="Integrantes:\nRicardo Sousa\nAna Cortes
+"
+            android:textAlignment="center"
+            android:textColor="#040000"
+            android:textColorHint="#190101"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+        <Button
+            android:id="@+id/r3"
+            android:layout_width="149dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="#7868E6"
+            android:onClick="onClick"
+            android:text="Regresar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="Profesora:\n
+Marlina Sánchez \n
+"
+            android:textAlignment="center"
+            android:textColor="#040000"
+            android:textColorHint="#190101"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="\n\n\nII Semestre 2021"
+            android:textAlignment="center"
+            android:textColor="#040000"
+            android:textColorHint="#190101"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView15" />
 
         <TextView
             android:id="@+id/textView8"
@@ -40,76 +130,13 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <TextView
-            android:id="@+id/textView13"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="21dp"
-            android:text="Proyecto Semestral"
-            android:textAlignment="center"
-            android:textColor="#040000"
-            android:textColorHint="#190101"
-            android:textSize="16sp"
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="59dp"
+            android:layout_height="54dp"
+            android:layout_marginTop="60dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/textView8" />
-
-        <TextView
-            android:id="@+id/textView14"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="1dp"
-            android:text="Profesora:\n
-Marlina Sánchez \n
-GRUPO:\n
-1IL-143
-"
-            android:textAlignment="center"
-            android:textColor="#040000"
-            android:textColorHint="#190101"
-            android:textSize="16sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView13" />
-
-        <TextView
-            android:id="@+id/textView15"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:text="\nIntegrantes:\nRicardo Sousa\nAna Cortes
-"
-            android:textAlignment="center"
-            android:textColor="#040000"
-            android:textColorHint="#190101"
-            android:textSize="16sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView14" />
-
-        <TextView
-            android:id="@+id/textView16"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="77dp"
-            android:text="\n\n\nII SEMESTRE 2021"
-            android:textAlignment="center"
-            android:textColor="#040000"
-            android:textColorHint="#190101"
-            android:textSize="16sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/textView15" />
-
-        <Button
-            android:id="@+id/r3"
-            android:layout_width="219dp"
-            android:layout_height="50dp"
-            android:layout_marginTop="72dp"
-            android:backgroundTint="#6B558B2F"
-            android:onClick="onClick"
-            android:text="Regresar"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView16" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/fil" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
