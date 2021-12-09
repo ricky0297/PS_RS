@@ -13,12 +13,12 @@
         android:layout_width="match_parent"
         android:layout_height="480dp"
         android:orientation="vertical"
-        app:layout_constraintEnd_toEndOf="@+id/titulo"
-        app:layout_constraintStart_toEndOf="@+id/titulo">
+        app:layout_constraintEnd_toEndOf="@+id/titulo1"
+        app:layout_constraintStart_toEndOf="@+id/titulo1">
 
 
         <TextView
-            android:id="@+id/titulo"
+            android:id="@+id/titulo1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
