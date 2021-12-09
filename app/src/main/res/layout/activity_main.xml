@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/logo"
+    android:background="@drawable/lop"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -52,7 +52,7 @@
                             android:id="@+id/present"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:backgroundTint="#20B52F"
+                            android:backgroundTint="#8020B52F"
                             android:bufferType="normal"
                             android:ellipsize="none"
                             android:insetLeft="0dp"
@@ -88,7 +88,7 @@
                             android:id="@+id/acel"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:backgroundTint="#8A1B1B"
+                            android:backgroundTint="#808A1B1B"
                             android:ellipsize="none"
                             android:onClick="onClick"
                             android:text="entrar" />
@@ -121,7 +121,7 @@
                             android:id="@+id/pres"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:backgroundTint="#1538B8"
+                            android:backgroundTint="#801538B8"
                             android:ellipsize="none"
                             android:onClick="onClick"
                             android:text="entrar" />
@@ -154,7 +154,7 @@
                             android:id="@+id/info"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:backgroundTint="#EF6C00"
+                            android:backgroundTint="#80EF6C00"
                             android:ellipsize="none"
                             android:onClick="onClick"
                             android:text="entrar" />
@@ -187,7 +187,7 @@
                             android:id="@+id/salir"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:backgroundTint="#4A0F0F"
+                            android:backgroundTint="#804A0F0F"
                             android:ellipsize="none"
                             android:onClick="onClick"
                             android:text="salir" />
